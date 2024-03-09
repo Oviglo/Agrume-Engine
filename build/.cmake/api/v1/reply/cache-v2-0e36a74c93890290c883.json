@@ -1394,6 +1394,18 @@
 			"value" : "[C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2/lib][C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2/include][v2.30.1()]"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_SDL2_image",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding SDL2_image"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2_image/lib][C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2_image/include][v2.8.2()]"
+		},
+		{
 			"name" : "MINGW32_LIBRARY",
 			"properties" : 
 			[
@@ -1420,6 +1432,38 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "SDL2MAIN_LIBRARY-NOTFOUND"
+		},
+		{
+			"name" : "SDL2_IMAGE_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "SDL2_IMAGE_INCLUDE_DIR-NOTFOUND"
+		},
+		{
+			"name" : "SDL2_IMAGE_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "SDL2_IMAGE_LIBRARY-NOTFOUND"
 		},
 		{
 			"name" : "SDL2_NO_DEFAULT_PATH",
@@ -1452,6 +1496,18 @@
 			],
 			"type" : "STRING",
 			"value" : ""
+		},
+		{
+			"name" : "SDL2_image_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL2_image."
+				}
+			],
+			"type" : "PATH",
+			"value" : "SDL2_image_DIR-NOTFOUND"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

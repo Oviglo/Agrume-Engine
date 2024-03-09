@@ -1,6 +1,8 @@
 #include "Agrume.hpp"
 #include "Thirdparty/SDL/SDLRenderer.hpp"
 #include "Core/IO/Resource.hpp"
+#include "Module/Renderer/Surface.hpp"
+#include "Core/Color.hpp"
 
 #if TIME_LIB == SDL
 #include "Thirdparty/SDL/SDLClock.hpp"
@@ -64,6 +66,12 @@ void Agrume::run()
     {
         frameStart = ::Clock::getTicks();
         m_isRunning = !::Event::quit();
+
+        // Draw
+        m_renderer->clear();
+        Surface& surf = *Surface::createSurface(m_mainConfig["mainWindow"]["width"].get<int>(), m_mainConfig["mainWindow"]["height"].get<int>());
+        surf.drawRect(20, 20, 300, 300, Color(0.2f, 0.5f, 1.0f));
+        m_renderer->render(surf);
 
         frameTime = ::Clock::getTicks() - frameStart;
 

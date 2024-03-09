@@ -18,12 +18,16 @@ target_sources(${PROJECT_NAME}
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Core/IO/Resource.hpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Core/Time/Clock.hpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Core/Math/Vector2D.hpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/Core/Color.hpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/Core/Sizes.hpp"
 
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Module/Renderer/Renderer.hpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/Module/Renderer/Surface.hpp"
 
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Thirdparty/SDL/SDLRenderer.hpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Thirdparty/SDL/SDLEvent.hpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Thirdparty/SDL/SDLClock.hpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/Thirdparty/SDL/SDLSurface.hpp"
 
         PRIVATE
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Core/Agrume.cpp"
@@ -35,8 +39,10 @@ target_sources(${PROJECT_NAME}
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Core/Math/Vector2D.cpp"
 
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Module/Renderer/Renderer.cpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/Module/Renderer/Surface.cpp"
 
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Thirdparty/SDL/SDLRenderer.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Thirdparty/SDL/SDLEvent.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Thirdparty/SDL/SDLClock.cpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/Thirdparty/SDL/SDLSurface.cpp"
 )

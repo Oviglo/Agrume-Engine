@@ -344,6 +344,30 @@ src/Module/Renderer/Renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\agrume-engine.dir\build.make CMakeFiles/agrume-engine.dir/src/Module/Renderer/Renderer.cpp.s
 .PHONY : src/Module/Renderer/Renderer.cpp.s
 
+src/Module/Renderer/Surface.obj: src/Module/Renderer/Surface.cpp.obj
+.PHONY : src/Module/Renderer/Surface.obj
+
+# target to build an object file
+src/Module/Renderer/Surface.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agrume-engine.dir\build.make CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj
+.PHONY : src/Module/Renderer/Surface.cpp.obj
+
+src/Module/Renderer/Surface.i: src/Module/Renderer/Surface.cpp.i
+.PHONY : src/Module/Renderer/Surface.i
+
+# target to preprocess a source file
+src/Module/Renderer/Surface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agrume-engine.dir\build.make CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.i
+.PHONY : src/Module/Renderer/Surface.cpp.i
+
+src/Module/Renderer/Surface.s: src/Module/Renderer/Surface.cpp.s
+.PHONY : src/Module/Renderer/Surface.s
+
+# target to generate assembly for a file
+src/Module/Renderer/Surface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agrume-engine.dir\build.make CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.s
+.PHONY : src/Module/Renderer/Surface.cpp.s
+
 src/Thirdparty/SDL/SDLClock.obj: src/Thirdparty/SDL/SDLClock.cpp.obj
 .PHONY : src/Thirdparty/SDL/SDLClock.obj
 
@@ -416,6 +440,30 @@ src/Thirdparty/SDL/SDLRenderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\agrume-engine.dir\build.make CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.s
 .PHONY : src/Thirdparty/SDL/SDLRenderer.cpp.s
 
+src/Thirdparty/SDL/SDLSurface.obj: src/Thirdparty/SDL/SDLSurface.cpp.obj
+.PHONY : src/Thirdparty/SDL/SDLSurface.obj
+
+# target to build an object file
+src/Thirdparty/SDL/SDLSurface.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agrume-engine.dir\build.make CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj
+.PHONY : src/Thirdparty/SDL/SDLSurface.cpp.obj
+
+src/Thirdparty/SDL/SDLSurface.i: src/Thirdparty/SDL/SDLSurface.cpp.i
+.PHONY : src/Thirdparty/SDL/SDLSurface.i
+
+# target to preprocess a source file
+src/Thirdparty/SDL/SDLSurface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agrume-engine.dir\build.make CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.i
+.PHONY : src/Thirdparty/SDL/SDLSurface.cpp.i
+
+src/Thirdparty/SDL/SDLSurface.s: src/Thirdparty/SDL/SDLSurface.cpp.s
+.PHONY : src/Thirdparty/SDL/SDLSurface.s
+
+# target to generate assembly for a file
+src/Thirdparty/SDL/SDLSurface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\agrume-engine.dir\build.make CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.s
+.PHONY : src/Thirdparty/SDL/SDLSurface.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -452,6 +500,9 @@ help:
 	@echo ... src/Module/Renderer/Renderer.obj
 	@echo ... src/Module/Renderer/Renderer.i
 	@echo ... src/Module/Renderer/Renderer.s
+	@echo ... src/Module/Renderer/Surface.obj
+	@echo ... src/Module/Renderer/Surface.i
+	@echo ... src/Module/Renderer/Surface.s
 	@echo ... src/Thirdparty/SDL/SDLClock.obj
 	@echo ... src/Thirdparty/SDL/SDLClock.i
 	@echo ... src/Thirdparty/SDL/SDLClock.s
@@ -461,6 +512,9 @@ help:
 	@echo ... src/Thirdparty/SDL/SDLRenderer.obj
 	@echo ... src/Thirdparty/SDL/SDLRenderer.i
 	@echo ... src/Thirdparty/SDL/SDLRenderer.s
+	@echo ... src/Thirdparty/SDL/SDLSurface.obj
+	@echo ... src/Thirdparty/SDL/SDLSurface.i
+	@echo ... src/Thirdparty/SDL/SDLSurface.s
 .PHONY : help
 
 

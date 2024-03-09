@@ -118,6 +118,9 @@ CMakeFiles/agrume-engine.dir/src/Main/Main.cpp.obj: \
  C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
  C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Core/Agrume.hpp \
  C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Module/Renderer/Renderer.hpp \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Module/Renderer/Surface.hpp \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Core/Sizes.hpp \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Core/Color.hpp \
  C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/nlohmann/json.hpp \
  C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
  C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \

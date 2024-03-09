@@ -55,6 +55,12 @@
 },
 {
   "directory": "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/build",
+  "command": "C:\\mingw-w64\\mingw64\\bin\\g++.exe  @CMakeFiles/agrume-engine.dir/includes_CXX.rsp -g -o CMakeFiles\\agrume-engine.dir\\src\\Module\\Renderer\\Surface.cpp.obj -c C:\\Users\\Loic\\Documents\\AppliCpp\\Agrume\\Engine\\src\\Module\\Renderer\\Surface.cpp",
+  "file": "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Module/Renderer/Surface.cpp",
+  "output": "CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj"
+},
+{
+  "directory": "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/build",
   "command": "C:\\mingw-w64\\mingw64\\bin\\g++.exe  @CMakeFiles/agrume-engine.dir/includes_CXX.rsp -g -o CMakeFiles\\agrume-engine.dir\\src\\Thirdparty\\SDL\\SDLRenderer.cpp.obj -c C:\\Users\\Loic\\Documents\\AppliCpp\\Agrume\\Engine\\src\\Thirdparty\\SDL\\SDLRenderer.cpp",
   "file": "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Thirdparty/SDL/SDLRenderer.cpp",
   "output": "CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj"
@@ -70,5 +76,11 @@
   "command": "C:\\mingw-w64\\mingw64\\bin\\g++.exe  @CMakeFiles/agrume-engine.dir/includes_CXX.rsp -g -o CMakeFiles\\agrume-engine.dir\\src\\Thirdparty\\SDL\\SDLClock.cpp.obj -c C:\\Users\\Loic\\Documents\\AppliCpp\\Agrume\\Engine\\src\\Thirdparty\\SDL\\SDLClock.cpp",
   "file": "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Thirdparty/SDL/SDLClock.cpp",
   "output": "CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj"
+},
+{
+  "directory": "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/build",
+  "command": "C:\\mingw-w64\\mingw64\\bin\\g++.exe  @CMakeFiles/agrume-engine.dir/includes_CXX.rsp -g -o CMakeFiles\\agrume-engine.dir\\src\\Thirdparty\\SDL\\SDLSurface.cpp.obj -c C:\\Users\\Loic\\Documents\\AppliCpp\\Agrume\\Engine\\src\\Thirdparty\\SDL\\SDLSurface.cpp",
+  "file": "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Thirdparty/SDL/SDLSurface.cpp",
+  "output": "CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj"
 }
 ]

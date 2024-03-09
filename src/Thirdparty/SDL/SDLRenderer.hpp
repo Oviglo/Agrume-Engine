@@ -13,6 +13,8 @@ class SDLRenderer: public Renderer {
 public:
     bool init();
     void createWindow(const char* title, int width, int height);
+    void clear();
+    void render(Surface& surf);
 
     SDLRenderer();
     ~SDLRenderer();

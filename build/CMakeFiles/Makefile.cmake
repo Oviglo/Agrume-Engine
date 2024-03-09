@@ -44,6 +44,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/cmake/Modules.cmake"
   "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/cmake/Sources.cmake"
   "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/cmake/modules/FindSDL2.cmake"
+  "C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/cmake/modules/FindSDL2_image.cmake"
   )
 
 # The corresponding makefile is:

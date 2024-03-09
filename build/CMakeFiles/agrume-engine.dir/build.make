@@ -203,11 +203,26 @@ CMakeFiles/agrume-engine.dir/src/Module/Renderer/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agrume-engine.dir/src/Module/Renderer/Renderer.cpp.s"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Module\Renderer\Renderer.cpp -o CMakeFiles\agrume-engine.dir\src\Module\Renderer\Renderer.cpp.s
 
+CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj: CMakeFiles/agrume-engine.dir/flags.make
+CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj: CMakeFiles/agrume-engine.dir/includes_CXX.rsp
+CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj: C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Module/Renderer/Surface.cpp
+CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj: CMakeFiles/agrume-engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj -MF CMakeFiles\agrume-engine.dir\src\Module\Renderer\Surface.cpp.obj.d -o CMakeFiles\agrume-engine.dir\src\Module\Renderer\Surface.cpp.obj -c C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Module\Renderer\Surface.cpp
+
+CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.i"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Module\Renderer\Surface.cpp > CMakeFiles\agrume-engine.dir\src\Module\Renderer\Surface.cpp.i
+
+CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.s"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Module\Renderer\Surface.cpp -o CMakeFiles\agrume-engine.dir\src\Module\Renderer\Surface.cpp.s
+
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj: CMakeFiles/agrume-engine.dir/flags.make
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj: CMakeFiles/agrume-engine.dir/includes_CXX.rsp
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj: C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Thirdparty/SDL/SDLRenderer.cpp
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj: CMakeFiles/agrume-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj -MF CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLRenderer.cpp.obj.d -o CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLRenderer.cpp.obj -c C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Thirdparty\SDL\SDLRenderer.cpp
 
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.i: cmake_force
@@ -222,7 +237,7 @@ CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.obj: CMakeFiles/agr
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.obj: CMakeFiles/agrume-engine.dir/includes_CXX.rsp
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.obj: C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Thirdparty/SDL/SDLEvent.cpp
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.obj: CMakeFiles/agrume-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.obj"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.obj -MF CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLEvent.cpp.obj.d -o CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLEvent.cpp.obj -c C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Thirdparty\SDL\SDLEvent.cpp
 
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.i: cmake_force
@@ -237,7 +252,7 @@ CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj: CMakeFiles/agr
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj: CMakeFiles/agrume-engine.dir/includes_CXX.rsp
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj: C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Thirdparty/SDL/SDLClock.cpp
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj: CMakeFiles/agrume-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj -MF CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLClock.cpp.obj.d -o CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLClock.cpp.obj -c C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Thirdparty\SDL\SDLClock.cpp
 
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.i: cmake_force
@@ -247,6 +262,21 @@ CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.i: cmake_force
 CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.s"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Thirdparty\SDL\SDLClock.cpp -o CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLClock.cpp.s
+
+CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj: CMakeFiles/agrume-engine.dir/flags.make
+CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj: CMakeFiles/agrume-engine.dir/includes_CXX.rsp
+CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj: C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Thirdparty/SDL/SDLSurface.cpp
+CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj: CMakeFiles/agrume-engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj -MF CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLSurface.cpp.obj.d -o CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLSurface.cpp.obj -c C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Thirdparty\SDL\SDLSurface.cpp
+
+CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.i"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Thirdparty\SDL\SDLSurface.cpp > CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLSurface.cpp.i
+
+CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.s"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Thirdparty\SDL\SDLSurface.cpp -o CMakeFiles\agrume-engine.dir\src\Thirdparty\SDL\SDLSurface.cpp.s
 
 # Object files for target agrume-engine
 agrume__engine_OBJECTS = \
@@ -259,9 +289,11 @@ agrume__engine_OBJECTS = \
 "CMakeFiles/agrume-engine.dir/src/Core/Time/Clock.cpp.obj" \
 "CMakeFiles/agrume-engine.dir/src/Core/Math/Vector2D.cpp.obj" \
 "CMakeFiles/agrume-engine.dir/src/Module/Renderer/Renderer.cpp.obj" \
+"CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj" \
 "CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj" \
 "CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.obj" \
-"CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj"
+"CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj" \
+"CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj"
 
 # External object files for target agrume-engine
 agrume__engine_EXTERNAL_OBJECTS =
@@ -275,16 +307,19 @@ agrume-engine.exe: CMakeFiles/agrume-engine.dir/src/Core/IO/Resource.cpp.obj
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/src/Core/Time/Clock.cpp.obj
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/src/Core/Math/Vector2D.cpp.obj
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/src/Module/Renderer/Renderer.cpp.obj
+agrume-engine.exe: CMakeFiles/agrume-engine.dir/src/Module/Renderer/Surface.cpp.obj
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLEvent.cpp.obj
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLClock.cpp.obj
+agrume-engine.exe: CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLSurface.cpp.obj
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/build.make
 agrume-engine.exe: C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2/lib/x64/SDL2main.lib
 agrume-engine.exe: C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2/lib/x64/SDL2.lib
+agrume-engine.exe: C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2_image/lib/x64/SDL2_image.lib
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/linkLibs.rsp
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/objects1.rsp
 agrume-engine.exe: CMakeFiles/agrume-engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable agrume-engine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable agrume-engine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\agrume-engine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

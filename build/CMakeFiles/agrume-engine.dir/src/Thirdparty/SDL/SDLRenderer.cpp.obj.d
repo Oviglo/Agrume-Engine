@@ -250,4 +250,12 @@ CMakeFiles/agrume-engine.dir/src/Thirdparty/SDL/SDLRenderer.cpp.obj: \
  C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2/include/SDL_locale.h \
  C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2/include/SDL_misc.h \
  C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Thirdparty\SDL\SDLRenderer.hpp \
- C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Module/Renderer/Renderer.hpp
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Module/Renderer/Renderer.hpp \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Module/Renderer/Surface.hpp \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Core/Sizes.hpp \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/src/Core/Color.hpp \
+ C:\Users\Loic\Documents\AppliCpp\Agrume\Engine\src\Thirdparty\SDL\SDLSurface.hpp \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2_image/include/SDL_image.h \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2/include/SDL_version.h \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2/include/begin_code.h \
+ C:/Users/Loic/Documents/AppliCpp/Agrume/Engine/external/SDL2/include/close_code.h

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "SDL.h"
 #include "SDLRenderer.hpp"
+#include "SDLSurface.hpp"
 
 namespace Agrume {
 
@@ -47,6 +48,20 @@ void SDLRenderer::createWindow(const char* title, int width, int height)
 
     m_renderer = SDL_CreateRenderer(m_window, -1, SDL_RENDERER_ACCELERATED);
 
+}
+
+void SDLRenderer::clear()
+{
+    SDL_RenderClear(m_renderer);
+}
+
+void SDLRenderer::render(Surface& surf)
+{
+    SDLSurface& sdlSurf = dynamic_cast<SDLSurface&>(surf);
+    SDL_Texture* texture = SDL_CreateTextureFromSurface(m_renderer, sdlSurf.m_surface);
+    SDL_RenderCopy(m_renderer, texture, NULL, NULL);
+    SDL_DestroyTexture(texture);
+    SDL_RenderPresent(m_renderer);
 }
 
 }
