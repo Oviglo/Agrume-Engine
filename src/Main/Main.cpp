@@ -1,6 +1,11 @@
 #include <iostream>
 #include "Core/Agrume.hpp"
 
+#define RENDERER_LIB SDL
+#define EVENT_LIB SDL
+#define TIME_LIB SDL
+
+
 using namespace Agrume;
 
 int main(int argc, char *argv[])
